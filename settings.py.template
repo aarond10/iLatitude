@@ -1,0 +1,14 @@
+import os
+
+# HOST_NAME used for testing to ensure we have a valid address.
+port = os.environ['SERVER_PORT']
+if port and port != '80':
+	HOST_NAME = '%s:%s' % (os.environ['SERVER_NAME'], port)
+else:
+	HOST_NAME = os.environ['SERVER_NAME']
+
+# OAuth consumer settings
+OAUTH_CONSUMER_KEY = "myapplication.appspot.com"
+OAUTH_CONSUMER_SECRET = "mysecretkey"
+
+

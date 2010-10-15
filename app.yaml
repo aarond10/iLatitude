@@ -1,0 +1,27 @@
+application: iphone-latitude
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: .*
+  script: main.py
+
+# 
+# Ignore a few extra things in the app directory when uploading.
+#
+skip_files: 
+
+- ^(.*/)?app\.yaml
+- ^(.*/)?index\.yaml
+- ^(.*/)?#.*#
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+- ^(.*/)?.*/RCS/.*
+- ^(.*/)?\..*
+- ^(.*/)?data/.*
+- ^(.*/)?iPhoneApp/.*
+

@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LatitudeSettings */ = {
+		activeExec = 0;
+		executables = (
+			838F4345126734BE004C9AF3 /* Latitude Settings */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Latitude_SettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {586, 247}}";
+			sepNavSelRange = "{272, 0}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 988}}";
+			sepNavSelRange = "{1122, 0}";
+			sepNavVisRange = "{819, 458}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 838F4345126734BE004C9AF3 /* Latitude Settings */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LatitudeSettings */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* LatitudeSettings */,
+		);
+		codeSenseManager = 838F435B126734C3004C9AF3 /* Code sense */;
+		executables = (
+			838F4345126734BE004C9AF3 /* Latitude Settings */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 308765834;
+			PBXWorkspaceStateSaveDate = 308765834;
+		};
+		perUserProjectItems = {
+			83C9EF471267468000EAE116 = 83C9EF471267468000EAE116 /* PBXTextBookmark */;
+			83C9EF481267468000EAE116 = 83C9EF481267468000EAE116 /* PBXTextBookmark */;
+			83C9EF491267468000EAE116 = 83C9EF491267468000EAE116 /* PBXTextBookmark */;
+			83C9EFC312674D3C00EAE116 = 83C9EFC312674D3C00EAE116 /* PBXTextBookmark */;
+			83C9EFC412674D3C00EAE116 = 83C9EFC412674D3C00EAE116 /* PlistBookmark */;
+			83C9F0A912674E8400EAE116 = 83C9F0A912674E8400EAE116 /* PBXTextBookmark */;
+			83C9F146126757A500EAE116 = 83C9F146126757A500EAE116 /* PBXTextBookmark */;
+			83C9F147126757A500EAE116 = 83C9F147126757A500EAE116 /* PBXTextBookmark */;
+			83C9F148126757A500EAE116 = 83C9F148126757A500EAE116 /* PBXTextBookmark */;
+			83C9F157126764C100EAE116 /* PBXTextBookmark */ = 83C9F157126764C100EAE116 /* PBXTextBookmark */;
+			83C9F158126764C100EAE116 /* PBXTextBookmark */ = 83C9F158126764C100EAE116 /* PBXTextBookmark */;
+			83C9F159126764C100EAE116 /* PBXTextBookmark */ = 83C9F159126764C100EAE116 /* PBXTextBookmark */;
+			83C9F1631267653500EAE116 /* PBXTextBookmark */ = 83C9F1631267653500EAE116 /* PBXTextBookmark */;
+			83C9F17F1267E90500EAE116 /* PBXTextBookmark */ = 83C9F17F1267E90500EAE116 /* PBXTextBookmark */;
+			83C9F1801267E90500EAE116 /* PBXTextBookmark */ = 83C9F1801267E90500EAE116 /* PBXTextBookmark */;
+			83C9F1811267E90500EAE116 /* PBXTextBookmark */ = 83C9F1811267E90500EAE116 /* PBXTextBookmark */;
+			83C9F1821267E90500EAE116 /* PBXTextBookmark */ = 83C9F1821267E90500EAE116 /* PBXTextBookmark */;
+			83C9F1831267E90500EAE116 /* PBXTextBookmark */ = 83C9F1831267E90500EAE116 /* PBXTextBookmark */;
+			83C9F18E1267EDDB00EAE116 /* PBXTextBookmark */ = 83C9F18E1267EDDB00EAE116 /* PBXTextBookmark */;
+			83C9F18F1267EDDB00EAE116 /* PBXTextBookmark */ = 83C9F18F1267EDDB00EAE116 /* PBXTextBookmark */;
+			83C9F1901267EDDB00EAE116 /* XCBuildMessageTextBookmark */ = 83C9F1901267EDDB00EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F1911267EDDB00EAE116 /* PBXTextBookmark */ = 83C9F1911267EDDB00EAE116 /* PBXTextBookmark */;
+			83C9F1991267EEB100EAE116 /* PBXTextBookmark */ = 83C9F1991267EEB100EAE116 /* PBXTextBookmark */;
+			83C9F19A1267EEB100EAE116 /* XCBuildMessageTextBookmark */ = 83C9F19A1267EEB100EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F19B1267EEB100EAE116 /* PBXTextBookmark */ = 83C9F19B1267EEB100EAE116 /* PBXTextBookmark */;
+			83C9F1A51267F18B00EAE116 /* PBXTextBookmark */ = 83C9F1A51267F18B00EAE116 /* PBXTextBookmark */;
+			83C9F1A61267F18B00EAE116 /* PBXTextBookmark */ = 83C9F1A61267F18B00EAE116 /* PBXTextBookmark */;
+			83C9F1A71267F18B00EAE116 /* PlistBookmark */ = 83C9F1A71267F18B00EAE116 /* PlistBookmark */;
+			83C9F1A81267F18B00EAE116 /* XCBuildMessageTextBookmark */ = 83C9F1A81267F18B00EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F1A91267F18B00EAE116 /* PBXTextBookmark */ = 83C9F1A91267F18B00EAE116 /* PBXTextBookmark */;
+			83C9F1B21267F20700EAE116 /* PBXTextBookmark */ = 83C9F1B21267F20700EAE116 /* PBXTextBookmark */;
+			83C9F1B31267F20700EAE116 /* XCBuildMessageTextBookmark */ = 83C9F1B31267F20700EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F1B41267F20700EAE116 /* PBXTextBookmark */ = 83C9F1B41267F20700EAE116 /* PBXTextBookmark */;
+			83C9F1B71267F29C00EAE116 /* PBXTextBookmark */ = 83C9F1B71267F29C00EAE116 /* PBXTextBookmark */;
+			83C9F1BC1267F37900EAE116 /* PBXTextBookmark */ = 83C9F1BC1267F37900EAE116 /* PBXTextBookmark */;
+			83C9F1C01267F40100EAE116 /* PBXTextBookmark */ = 83C9F1C01267F40100EAE116 /* PBXTextBookmark */;
+			83C9F1C31267F41B00EAE116 /* PBXTextBookmark */ = 83C9F1C31267F41B00EAE116 /* PBXTextBookmark */;
+			83C9F1C41267F41B00EAE116 /* PlistBookmark */ = 83C9F1C41267F41B00EAE116 /* PlistBookmark */;
+			83C9F1D91267F53E00EAE116 /* PlistBookmark */ = 83C9F1D91267F53E00EAE116 /* PlistBookmark */;
+			83C9F1DA1267F53E00EAE116 /* PBXTextBookmark */ = 83C9F1DA1267F53E00EAE116 /* PBXTextBookmark */;
+			83C9F1DB1267F53E00EAE116 /* PBXTextBookmark */ = 83C9F1DB1267F53E00EAE116 /* PBXTextBookmark */;
+			83C9F1DC1267F53E00EAE116 /* PBXTextBookmark */ = 83C9F1DC1267F53E00EAE116 /* PBXTextBookmark */;
+			83C9F1E11267F55E00EAE116 /* PBXTextBookmark */ = 83C9F1E11267F55E00EAE116 /* PBXTextBookmark */;
+			83C9F1E81267F5D200EAE116 /* PBXTextBookmark */ = 83C9F1E81267F5D200EAE116 /* PBXTextBookmark */;
+			83C9F1ED1267F7EA00EAE116 /* PBXTextBookmark */ = 83C9F1ED1267F7EA00EAE116 /* PBXTextBookmark */;
+			83C9F1F41267F84C00EAE116 /* PBXTextBookmark */ = 83C9F1F41267F84C00EAE116 /* PBXTextBookmark */;
+			83C9F1F91267F87300EAE116 /* PBXTextBookmark */ = 83C9F1F91267F87300EAE116 /* PBXTextBookmark */;
+			83C9F1FE1267F8AE00EAE116 /* XCBuildMessageTextBookmark */ = 83C9F1FE1267F8AE00EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F2031267F8EA00EAE116 /* XCBuildMessageTextBookmark */ = 83C9F2031267F8EA00EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F2041267F8EA00EAE116 /* PBXTextBookmark */ = 83C9F2041267F8EA00EAE116 /* PBXTextBookmark */;
+			83C9F2071267F8EA00EAE116 /* PBXTextBookmark */ = 83C9F2071267F8EA00EAE116 /* PBXTextBookmark */;
+			83C9F2101267FDA300EAE116 /* PBXTextBookmark */ = 83C9F2101267FDA300EAE116 /* PBXTextBookmark */;
+			83C9F2111267FDA300EAE116 /* XCBuildMessageTextBookmark */ = 83C9F2111267FDA300EAE116 /* XCBuildMessageTextBookmark */;
+			83C9F2121267FDA300EAE116 /* PBXTextBookmark */ = 83C9F2121267FDA300EAE116 /* PBXTextBookmark */;
+			83C9F21D1267FDF700EAE116 /* PBXBookmark */ = 83C9F21D1267FDF700EAE116 /* PBXBookmark */;
+			83C9F21E1267FDF700EAE116 /* PBXTextBookmark */ = 83C9F21E1267FDF700EAE116 /* PBXTextBookmark */;
+			83C9F21F1267FDF700EAE116 /* PBXBookmark */ = 83C9F21F1267FDF700EAE116 /* PBXBookmark */;
+			83C9F2201267FDF700EAE116 /* PBXTextBookmark */ = 83C9F2201267FDF700EAE116 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 838F435A126734C3004C9AF3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 715}}";
+			sepNavSelRange = "{1213, 0}";
+			sepNavVisRange = "{964, 553}";
+			sepNavWindowFrame = "{{15, 119}, {1164, 878}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Latitude_Settings_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 200}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 203}";
+		};
+	};
+	838F4345126734BE004C9AF3 /* Latitude Settings */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Latitude Settings";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	838F435A126734C3004C9AF3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	838F435B126734C3004C9AF3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	83C9EF471267468000EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 15";
+		rLen = 0;
+		rLoc = 1538;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	83C9EF481267468000EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */;
+		name = "Latitude_SettingsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	83C9EF491267468000EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Latitude_SettingsViewController.h */;
+		name = "Latitude_SettingsViewController.h: 12";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	83C9EFC312674D3C00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */;
+		name = "Latitude_SettingsViewController.m: 13";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 1579;
+	};
+	83C9EFC412674D3C00EAE116 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Latitude_Settings-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Latitude_Settings-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	83C9EFE812674DD700EAE116 /* DLocationDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 338}}";
+			sepNavSelRange = "{227, 0}";
+			sepNavVisRange = "{228, 454}";
+		};
+	};
+	83C9EFE912674DD700EAE116 /* DLocationDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 2353}}";
+			sepNavSelRange = "{4172, 0}";
+			sepNavVisRange = "{4168, 331}";
+			sepNavWindowFrame = "{{61, 77}, {1164, 878}}";
+		};
+	};
+	83C9EFEA12674DD700EAE116 /* main.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = main.m;
+		path = "/Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Daemon/main.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 200}}";
+			sepNavSelRange = "{36, 0}";
+			sepNavVisRange = "{0, 36}";
+		};
+	};
+	83C9EFF112674DF500EAE116 /* LatitudeDaemon-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 98}, {1164, 878}}";
+		};
+	};
+	83C9F0A912674E8400EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFEA12674DD700EAE116 /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	83C9F146126757A500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 284;
+		vrLoc = 0;
+	};
+	83C9F147126757A500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE812674DD700EAE116 /* DLocationDelegate.h */;
+		name = "DLocationDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 0;
+	};
+	83C9F148126757A500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE812674DD700EAE116 /* DLocationDelegate.h */;
+		name = "DLocationDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 0;
+	};
+	83C9F157126764C100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE812674DD700EAE116 /* DLocationDelegate.h */;
+		name = "DLocationDelegate.h: 10";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 228;
+	};
+	83C9F158126764C100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */;
+		name = "Latitude_SettingsViewController.m: 13";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 1579;
+	};
+	83C9F159126764C100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */;
+		name = "Latitude_SettingsViewController.m: 40";
+		rLen = 0;
+		rLoc = 1056;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 841;
+	};
+	83C9F1631267653500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */;
+		name = "Latitude_SettingsViewController.m: 40";
+		rLen = 0;
+		rLoc = 1056;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 841;
+	};
+	83C9F17F1267E90500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Latitude_SettingsViewController.m */;
+		name = "Latitude_SettingsViewController.m: 41";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 819;
+	};
+	83C9F1801267E90500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFEA12674DD700EAE116 /* main.m */;
+		name = "main.m: 5";
+		rLen = 0;
+		rLoc = 36;
+		rType = 0;
+		vrLen = 36;
+		vrLoc = 0;
+	};
+	83C9F1811267E90500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 1186;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 137;
+	};
+	83C9F1821267E90500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 22";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 30;
+	};
+	83C9F1831267E90500EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 22";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 30;
+	};
+	83C9F18E1267EDDB00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 45";
+		rLen = 0;
+		rLoc = 1174;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 290;
+	};
+	83C9F18F1267EDDB00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Latitude_Settings_Prefix.pch */;
+		name = "Latitude_Settings_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	83C9F1901267EDDB00EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Compile /Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Daemon/DLocationDelegate.m";
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 132;
+		rType = 1;
+	};
+	83C9F1911267EDDB00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 133";
+		rLen = 0;
+		rLoc = 3808;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 3695;
+	};
+	83C9F1991267EEB100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */;
+		name = "Latitude_SettingsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	83C9F19A1267EEB100EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Compile /Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Daemon/DLocationDelegate.m";
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 132;
+		rType = 1;
+	};
+	83C9F19B1267EEB100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 133";
+		rLen = 0;
+		rLoc = 3808;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 3695;
+	};
+	83C9F1A51267F18B00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 134";
+		rLen = 0;
+		rLoc = 3835;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 3691;
+	};
+	83C9F1A61267F18B00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 45";
+		rLen = 0;
+		rLoc = 1174;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 136;
+	};
+	83C9F1A71267F18B00EAE116 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 83C9EFF112674DF500EAE116 /* LatitudeDaemon-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/LatitudeDaemon-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	83C9F1A81267F18B00EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Compile /Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Classes/Latitude_SettingsAppDelegate.m";
+		fRef = 1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 0;
+		rType = 1;
+	};
+	83C9F1A91267F18B00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */;
+		name = "Latitude_SettingsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	83C9F1B21267F20700EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Latitude_SettingsAppDelegate.m */;
+		name = "Latitude_SettingsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	83C9F1B31267F20700EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected expression before 'UIAlertView'";
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 139;
+		rType = 1;
+	};
+	83C9F1B41267F20700EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 173";
+		rLen = 0;
+		rLoc = 4998;
+		rType = 0;
+		vrLen = 559;
+		vrLoc = 4172;
+	};
+	83C9F1B71267F29C00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 177";
+		rLen = 0;
+		rLoc = 4998;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 4172;
+	};
+	83C9F1BC1267F37900EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 177";
+		rLen = 0;
+		rLoc = 4998;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 4172;
+	};
+	83C9F1C01267F40100EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 141";
+		rLen = 0;
+		rLoc = 4171;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 4168;
+	};
+	83C9F1C31267F41B00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 177";
+		rLen = 0;
+		rLoc = 4998;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 4172;
+	};
+	83C9F1C41267F41B00EAE116 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Latitude_Settings-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Latitude_Settings-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	83C9F1D91267F53E00EAE116 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Latitude_Settings-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/aarond10/Dropbox/src/iphone-latitude/iPhoneApp/LatitudeSettings/Latitude_Settings-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	83C9F1DA1267F53E00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 142";
+		rLen = 327;
+		rLoc = 4172;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 4168;
+	};
+	83C9F1DB1267F53E00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 23";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 643;
+	};
+	83C9F1DC1267F53E00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 49";
+		rLen = 0;
+		rLoc = 1128;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 999;
+	};
+	83C9F1E11267F55E00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 41";
+		rLen = 0;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 999;
+	};
+	83C9F1E81267F5D200EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 42";
+		rLen = 0;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 999;
+	};
+	83C9F1ED1267F7EA00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 44";
+		rLen = 0;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 526;
+		vrLoc = 999;
+	};
+	83C9F1F41267F84C00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 40";
+		rLen = 0;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 999;
+	};
+	83C9F1F91267F87300EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 44";
+		rLen = 0;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 999;
+	};
+	83C9F1FE1267F8AE00EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'pool'";
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	83C9F2031267F8EA00EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'pool'";
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	83C9F2041267F8EA00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 45";
+		rLen = 0;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 950;
+	};
+	83C9F2071267F8EA00EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 48";
+		rLen = 0;
+		rLoc = 1339;
+		rType = 0;
+		vrLen = 1538;
+		vrLoc = 0;
+	};
+	83C9F2101267FDA300EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83C9EFE912674DD700EAE116 /* DLocationDelegate.m */;
+		name = "DLocationDelegate.m: 141";
+		rLen = 0;
+		rLoc = 4171;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 4168;
+	};
+	83C9F2111267FDA300EAE116 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'pool'";
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	83C9F2121267FDA300EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 45";
+		rLen = 0;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 1174;
+	};
+	83C9F21D1267FDF700EAE116 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 83C9F19F1267EF4A00EAE116 /* Icon.png */;
+	};
+	83C9F21E1267FDF700EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Latitude_Settings_Prefix.pch */;
+		name = "Latitude_Settings_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	83C9F21F1267FDF700EAE116 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	83C9F2201267FDF700EAE116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 45";
+		rLen = 0;
+		rLoc = 1213;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 964;
+	};
+	8D1107310486CEB800E47090 /* Latitude_Settings-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 98}, {1164, 878}}";
+		};
+	};
+}

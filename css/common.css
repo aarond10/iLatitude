@@ -1,0 +1,6 @@
+html { margin:0; font-family: arial, sans-serif; color:#444; background: #fff }
+h1, h2, h3, h4, h5 { margin:0; }
+
+#pageheader { text-align:right;padding:4px 4px 2px 4px;border-bottom:1px solid #88f; }
+#pagefooter { color: #888; margin-top:20px; border-top:1px solid #88f; padding-top:4px; text-align:center; }
+

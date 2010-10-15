@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+	<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>iLatitude</title>
+	<link href="/css/common.css" media="all" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+	<div id="pageheader">
+		{% if user %}
+			<b>{{ user.email }} | <a href="{{ signout_url }}">Signout</a></b>
+		{% else %}
+			<b>Not logged in | <a href="{{ signin_url }}">Sign-in</a></b>
+		{% endif %}
+	</div>
+	<div id="pagebody">
+
+
+		{% if not phone_id %}
+			<h2>Error</h2>
+			<div><p>iLatitude is intended to be accessed via its iPhone application only.</p></div>
+		{% else %}
+	
+			{% if not access_token %}
+			<h2>Error</h2>
+			<div>
+				You must login and authorise this app before we can update Latitude on your behalf. 
+			</div>
+			{% else %}
+			<h2>Success!</h2>
+			<div>
+				<p>You're latitude account has been successfully been activated.</p>
+			</div>
+			{% endif %}
+		{% endif %}
+	</div>
+	
+	<div id="pagefooter">
+		Copyright &copy; 2010 <a href="http://www.aarondrew.com/">Aaron Drew</a>.
+	</div>
+
+</body>
+</html>
+
