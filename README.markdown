@@ -5,21 +5,17 @@ The code for this is broken into an iPhone application component and a
 Google AppEngine component. 
 
 The iPhone application is responsible for assigning the phone's 
-uniqueIdentifier with a google account and periodically updating the locaiton.
-
+uniqueIdentifier with a google account and periodically updating the location.
 The AppEngine component is responsible for OAuth authentication and storing
 the Google Latitude access tokens associated with a given device.
 
-Installation of the AppEngine component is straight-forward. 
+Installation of the AppEngine component is fairly straight-forward. 
 
-*Note: You may skip this step if you're happy to use my existing appengine application.*
+**Note: You may skip this step if you're happy to use my existing appengine application.**
 
 1. Create an new appengine application.
-
 2. Visit https://www.google.com/accounts/ManageDomains and obtain an OAuth consumer and secret key.
-
 3. Edit settings.py and add your key and secret.
-
 4. Update your app: 
 
     $ appcfg.py update . 
