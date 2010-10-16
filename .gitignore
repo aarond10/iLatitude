@@ -1,4 +1,5 @@
 settings.py
 iPhoneApp/LatitudeSettings/build
+iPhoneApp/stage/Applications
 *.mode1v3
 *.pbxuser
