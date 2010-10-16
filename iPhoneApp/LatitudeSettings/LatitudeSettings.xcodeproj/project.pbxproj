@@ -35,7 +35,6 @@
 		32CA4F630368D1EE00C91783 /* Latitude_Settings_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Latitude_Settings_Prefix.pch; sourceTree = "<group>"; };
 		83C9EFE812674DD700EAE116 /* DLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLocationDelegate.h; sourceTree = "<group>"; };
 		83C9EFE912674DD700EAE116 /* DLocationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLocationDelegate.m; sourceTree = "<group>"; };
-		83C9EFF112674DF500EAE116 /* LatitudeDaemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LatitudeDaemon-Info.plist"; sourceTree = "<group>"; };
 		83C9F04312674E4A00EAE116 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		83C9F19F1267EF4A00EAE116 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Latitude_Settings-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Latitude_Settings-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -84,7 +83,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				83C9EFF112674DF500EAE116 /* LatitudeDaemon-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

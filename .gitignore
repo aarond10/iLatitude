@@ -1,1 +1,4 @@
 settings.py
+iPhoneApp/LatitudeSettings/build
+*.mode1v3
+*.pbxuser

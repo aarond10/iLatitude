@@ -4,8 +4,10 @@
 //  Created by Chris Alvares on 3/25/09.
 //  Copyright 2009 Chris Alvares. All rights reserved.
 //
+//  Modified by Aaron Drew 15/10/2010.
 //
  
+#import <CoreFoundation/CoreFoundation.h>
 #import <UIKit/UIKit.h>
 #import "DLocationDelegate.h"
  
@@ -57,9 +59,8 @@ fromLocation:(CLLocation *)oldLocation
 	srandom(time(0)); //do this to make sure that it does not use a cached page
 	NSLog(@"Location found");
 	
-	if([newLocation horizontalAccuracy] <= 300 && [newLocation horizontalAccuracy] > 0)
+	if([newLocation horizontalAccuracy] > 0)
 	{
-		[self.locationManager stopUpdatingLocation];
 		NSNumber *num = [NSNumber numberWithInt:(random())];
 		NSString *devId = [[UIDevice currentDevice] uniqueIdentifier];
 		
@@ -68,7 +69,6 @@ fromLocation:(CLLocation *)oldLocation
 		
 		NSNumber *latitude = [[NSNumber alloc] initWithDouble:newLocation.coordinate.latitude];
 		NSNumber *longitude = [[NSNumber alloc] initWithDouble:newLocation.coordinate.longitude];
-		//NSNumber *altitude = [[NSNumber alloc] initWithDouble:newLocation.altitude];
 		NSNumber *accuracy = [[NSNumber alloc] initWithDouble:newLocation.horizontalAccuracy];
  
 		NSMutableString *str = [[NSMutableString alloc] 
@@ -78,44 +78,43 @@ fromLocation:(CLLocation *)oldLocation
 		[str appendString:[latitude stringValue]];
 		[str appendString:@"&lon="];
 		[str appendString:[longitude stringValue]];
- 		//[str appendString:@"&alt="];
-		//[str appendString:[altitude stringValue]];
 		[str appendString:@"&acc="];
 		[str appendString:[accuracy stringValue]];
 		[str appendString:@"&random="];
 		[str appendString:[num stringValue]];
 
-		
 		NSLog(@"URL: %@", str);
 		NSURL *theURL = [[NSURL alloc] initWithString:str];
  
 		NSURLRequest *theRequest = [NSURLRequest requestWithURL:theURL
-													cachePolicy:NSURLRequestReloadIgnoringLocalCacheData 
-												timeoutInterval:120];
+							cachePolicy:NSURLRequestReloadIgnoringLocalCacheData 
+							timeoutInterval:120];
  
  
 		NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:theRequest 
-																	  delegate:self 
-															  startImmediately:YES];
-		if(connection == nil)
+							  delegate:self 
+							  startImmediately:YES];
+
+		// We record all updates but we only start sleeping (for 20 minutes) once we receive an update of 100m or better accuracy.
+		if([newLocation horizontalAccuracy] <= 100 || connection == nil)
 		{
-			trackingGPS = NO;
-		}		
+			[self.locationManager stopUpdatingLocation];
  
-		NSLog(@"setting timer for 30 minutes");
-		NSTimer *timer =  [[NSTimer
-							timerWithTimeInterval:1800.0
-							target:self
-							selector:@selector(startItAgain:)
-							userInfo:nil
-							repeats:NO
-							] retain];
-		[[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+			NSLog(@"setting timer for 20 minutes");
+			NSTimer *timer =  [[NSTimer
+						timerWithTimeInterval:1200.0
+						target:self
+						selector:@selector(startItAgain:)
+						userInfo:nil
+						repeats:NO
+						] retain];
+			[[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
  
-		[timer release];
+			[timer release];
+		}
+
 		[latitude release];
 		[longitude release];
-		//[altitude release];
 		[accuracy release];
 		[theURL release];
 	}
